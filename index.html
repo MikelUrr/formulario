@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Formularios viejuners</h1>
+    <nav>
+        <ul>
+        <li><a href="#viejuner">El club viejuner</a></li>
+        <li><a href="#ladron">Los ladronzuelos de bicicletas</a></li>
+    </ul>
+    </nav>
+</header>
+<main>
+    <section id="viejuner">
+        <h2>El club viejuner </h2>
+    <form action="" method="post" >
+        <fieldset>
+        <ul>
+            <li>
+        <label for="nombre" >Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" placeholder="Inserte su nombre" autofocus><br>
+    </li>
+    <li>
+        <label for="apellidos">Apellidos:</label><br>
+        <input type="text" id="apellidos" name="apellidos" placeholder="Inserte su apellido">
+    </li>
+    <li>
+        <label for="edad">Edad:</label><br>
+        <input type="number" id="edad" name="edad" placeholder="Inserte su edad">
+    </li>
+    <li>
+        <p>Sexo:</p>
+        <input type="radio" id="hombre" name="sexo" value="hombre">
+  <label for="hombre">Hombre</label><br>
+  <input type="radio" id="mujer" name="sexo" value="mujer">
+  <label for="mujer">Mujer</label><br> 
+    </li>
+    <li>
+        <p>Me siento viejuner:</p>  
+        <input type="checkbox" id="viejunersi" name="viejuenersi" value="Si">
+        <label for="viejunersi"> SI</label><br>
+        
+    <li>
+        <p>Escribe algo sobre tí: </p>
+        <textarea name="comment" form="usrform">Escrbe algo sobre ti...</textarea></li>
+    <li>
+        <label for="email">Escribe tu mail:</label><br>
+        <input type="email" id="email" size="30"  />
+    </li>
+    <li>
+        <label for="phone">Introduce tu numero de telefono:</label><br>
+        <input type="tel" id="phone" name="phone"  />
+    </li>
+    <li>
+        <p>
+            <input type="reset" value="Reset" />
+            <input type="submit" value="Send Request" />
+        </p>
+    </li>
+    </ul>
+</fieldset>
+    </form>
+</section>
+<section id="ladron">
+    <h2>Los ladronzuelos de bicicletas</h2>
+    <form action="" method="" >
+        <fieldset>
+            <ul>
+                <li>
+            <label for="start">Dia:</label>
+            <input type="date" id="fecha" name="fecha" value="2023-09-20" />
+        </li>
+        <li>
+            <label for="hora">Hora:</label>
+            <input type="time" id="hora" name="hora" min="00:00" max="23:59"  />
+
+        </li>
+        <li>
+            <p>Tipo de Bicicleta:</p>
+            <label for="paseo-select">Paseo:</label>
+            <select name="paseo" id="paseo-select">
+            <option value="">--Elige una opcion--</option>
+            <option value="señorial">Señorial</option>
+            <option value="anti-plebeyos">Anti-plebeyos</option>
+            <option value="PorEncimaDelHombro">PorEncimaDelHombro</option>
+        </select>
+            <label for="montana-select">Paseo:</label>
+            <select name="montana" id="montana-select">
+            <option value="">--Elige una opcion--</option>
+            <option value="Gamusinos">Gamusinos</option>
+            <option value="Hueleflores premium">Hueleflores premium</option>
+            <option value="Fango lover">Fango lover</option>
+</select>
+<label for="carreras-select">Paseo:</label>
+            <select name="carrera" id="carreras-select">
+            <option value="">--Elige una opcion--</option>
+            <option value="Metroymedio">Metroymedio</option>
+            <option value="3 de la tarde. Fluorescente edition">3 de la tarde. Fluorescente edition</option>
+            <option value="Grupitors">Grupitors</option>
+</select>
+        </li>
+        <li>
+            <label for="accesorios-select">Accesorios:</label><br>
+            <select name="accesorios" id="accesorios-select" multiple>
+            
+            <option value="Ruedines">Ruedines</option>
+            <option value="Pegatinas">Pegatinas</option>
+            <option value="Cestita">Cestita</option>
+            <option value="Bomba de aire">Bomba de aire</option>
+            <option value="Timbre">Timbre</option>
+            <option value="Foco">Foco</option>
+</select>
+        </li>
+        <li>
+        </select>
+        <label for="marca-select">Marca:</label>
+        <select name="marca" id="marca">
+        <option value="">--Elige una opcion--</option>
+        <option value="specialized">specialized</option>
+        <option value="trek premium">trek</option>
+        <option value="merida">merida</option>
+</select>
+        </li>
+        
+        <li>
+            <p>
+                <input type="reset" value="Reset" />
+                <input type="submit" value="Send Request" />
+            </p>
+        </li>
+    </ul>
+        </fieldset>
+    </form>
+</section>
+</main>
+</body>
+</html>

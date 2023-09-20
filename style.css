@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+ul{
+    list-style: none;
+    
+}
+nav{
+    text-align: center;
+    display: inline-block;
+    columns:2 ;
+    margin-top: 20px;
+    padding-left: 450px;
+}
+h1, h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+main{
+    width: 100%;
+}
+
+section, header{
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+}
+
+form>fieldset>ul>li{
+    padding: 20px;
+}
+form{
+    margin-top: 10px;
+}
